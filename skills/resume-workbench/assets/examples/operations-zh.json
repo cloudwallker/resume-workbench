@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "profile": {
+    "name": "示例求职者（虚构）",
+    "headline": "活动运营专员",
+    "email": "candidate@example.com",
+    "location": "示例城市",
+    "summary": "专注清晰交付、协作与流程改进。"
+  },
+  "target": {
+    "role": "活动运营专员",
+    "language": "zh",
+    "market": "CN",
+    "seniority": "experienced",
+    "paper": "A4",
+    "page_limit": 1
+  },
+  "sources": [
+    {
+      "id": "user-1",
+      "type": "user",
+      "reference": "虚构验收访谈 / fictional acceptance interview",
+      "note": "全部信息为流程演示虚构资料，不属于真实求职者。"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "work-1",
+      "kind": "work",
+      "title": "活动运营与复盘",
+      "organization": "示例服务机构（虚构）",
+      "role": "运营专员",
+      "start": "2023-06",
+      "end": "2025-08",
+      "status": "confirmed",
+      "source_ids": [
+        "user-1"
+      ],
+      "tags": [
+        "运营",
+        "活动",
+        "沟通",
+        "复盘"
+      ],
+      "bullets": [
+        {
+          "id": "w1-b1",
+          "text": "整理活动报名资料并交付周报，供团队复盘使用。",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "individual"
+        },
+        {
+          "id": "w1-b2",
+          "text": "协调场地与物料交接，按活动清单检查执行进度。",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "individual"
+        },
+        {
+          "id": "w1-b3",
+          "text": "维护常见问题说明，协助团队统一参与者答复口径。",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "assisted"
+        }
+      ]
+    },
+    {
+      "id": "education-1",
+      "kind": "education",
+      "title": "管理学学士",
+      "organization": "示例大学（虚构）",
+      "role": "工商管理",
+      "start": "2019-09",
+      "end": "2023-06",
+      "status": "confirmed",
+      "source_ids": [
+        "user-1"
+      ],
+      "tags": [
+        "管理"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "volunteer-1",
+      "kind": "volunteer",
+      "title": "社区阅读活动",
+      "organization": "示例社区（虚构）",
+      "role": "志愿者",
+      "start": "2022-03",
+      "end": "2022-10",
+      "status": "confirmed",
+      "source_ids": [
+        "user-1"
+      ],
+      "tags": [
+        "活动"
+      ],
+      "bullets": [
+        {
+          "id": "v1-b1",
+          "text": "协助登记图书并整理借阅记录，向活动负责人交付台账。",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "assisted"
+        }
+      ]
+    }
+  ]
+}

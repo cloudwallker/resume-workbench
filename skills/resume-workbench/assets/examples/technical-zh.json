@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "profile": {
+    "name": "示例学生（虚构）",
+    "headline": "软件开发实习生",
+    "email": "candidate@example.com",
+    "location": "示例城市",
+    "summary": "专注清晰交付、协作与流程改进。"
+  },
+  "target": {
+    "role": "软件开发实习生",
+    "language": "zh",
+    "market": "CN",
+    "seniority": "student",
+    "paper": "A4",
+    "page_limit": 1
+  },
+  "sources": [
+    {
+      "id": "user-1",
+      "type": "user",
+      "reference": "虚构验收访谈 / fictional acceptance interview",
+      "note": "全部信息为流程演示虚构资料，不属于真实求职者。"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "education-1",
+      "kind": "education",
+      "title": "计算机科学与技术本科",
+      "organization": "示例大学（虚构）",
+      "role": "本科在读",
+      "start": "2023-09",
+      "end": "Present",
+      "status": "confirmed",
+      "source_ids": [
+        "user-1"
+      ],
+      "tags": [
+        "计算机"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "project-1",
+      "kind": "project",
+      "title": "课程任务管理项目",
+      "organization": "课程团队（虚构）",
+      "role": "后端开发成员",
+      "start": "2025-03",
+      "end": "2025-06",
+      "status": "confirmed",
+      "source_ids": [
+        "user-1"
+      ],
+      "tags": [
+        "Python",
+        "接口",
+        "测试"
+      ],
+      "bullets": [
+        {
+          "id": "p1-b1",
+          "text": "实现任务状态校验与列表查询接口，编写接口使用说明。",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "individual"
+        },
+        {
+          "id": "p1-b2",
+          "text": "为边界输入添加单元测试，协助团队完成课程演示。",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "assisted"
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "kind": "project",
+      "title": "校园资料整理脚本",
+      "organization": "个人学习项目（虚构）",
+      "role": "开发者",
+      "start": "2025-07",
+      "end": "2025-08",
+      "status": "confirmed",
+      "source_ids": [
+        "user-1"
+      ],
+      "tags": [
+        "Python",
+        "文件"
+      ],
+      "bullets": [
+        {
+          "id": "p2-b1",
+          "text": "编写文件分类与重名处理脚本，保留操作日志供核对。",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "individual"
+        }
+      ]
+    }
+  ]
+}

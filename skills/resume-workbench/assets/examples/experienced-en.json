@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "profile": {
+    "name": "Alex Example (Fictional)",
+    "headline": "Operations Coordinator",
+    "email": "candidate@example.com",
+    "location": "Example City",
+    "summary": "Operations professional focused on clear delivery, collaboration and process improvement."
+  },
+  "target": {
+    "role": "Operations Coordinator",
+    "language": "en",
+    "market": "US",
+    "seniority": "experienced",
+    "paper": "Letter",
+    "page_limit": 1
+  },
+  "sources": [
+    {
+      "id": "user-1",
+      "type": "user",
+      "reference": "虚构验收访谈 / fictional acceptance interview",
+      "note": "全部信息为流程演示虚构资料，不属于真实求职者。"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "work-1",
+      "kind": "work",
+      "title": "Event Operations",
+      "organization": "Example Services (Fictional)",
+      "role": "Operations Coordinator",
+      "start": "2021-06",
+      "end": "2025-08",
+      "status": "confirmed",
+      "source_ids": [
+        "user-1"
+      ],
+      "tags": [
+        "operations",
+        "events",
+        "communication"
+      ],
+      "bullets": [
+        {
+          "id": "w1-b1",
+          "text": "Coordinated venue and materials handovers using a shared event checklist.",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "individual"
+        },
+        {
+          "id": "w1-b2",
+          "text": "Compiled weekly reports for the team to review registrations and unresolved issues.",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "individual"
+        },
+        {
+          "id": "w1-b3",
+          "text": "Maintained response guidance and supported consistent participant communication.",
+          "status": "confirmed",
+          "source_ids": [
+            "user-1"
+          ],
+          "contribution": "assisted"
+        }
+      ]
+    },
+    {
+      "id": "education-1",
+      "kind": "education",
+      "title": "BA in Business Administration",
+      "organization": "Example University (Fictional)",
+      "role": "Graduate",
+      "start": "2017-09",
+      "end": "2021-06",
+      "status": "confirmed",
+      "source_ids": [
+        "user-1"
+      ],
+      "tags": [
+        "business"
+      ],
+      "bullets": []
+    }
+  ]
+}

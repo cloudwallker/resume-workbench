@@ -1,0 +1,4 @@
+interface:
+  display_name: "通用求职简历工作台"
+  short_description: "根据真实经历、岗位要求与 PDF/Word 模板制作可编辑 Word 和 PDF 简历，支持继续编辑"
+  default_prompt: "使用 $resume-workbench 根据我的经历和目标岗位制作简历，默认交付可编辑 Word 与 PDF，并保留可续编资料。"
