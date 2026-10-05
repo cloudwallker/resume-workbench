@@ -20,7 +20,7 @@
 - **可编辑 Word 与对应 PDF。** 支持默认版式、普通段落/简单表格 DOCX，以及将文字层 PDF 参考版式重建为 Word；报告不支持的位置和重建差异。
 - **从最新 Word 续编。** 无需历史记录，修改副本、保留原件，再从修改后的 Word 导出新 PDF。
 
-流程可用于不同行业和职业阶段，不强制提供技术项目或 GitHub 账号。
+流程适用于不同行业和职业阶段。可从个人叙述或旧简历开始，再按需要补充公开 GitHub 素材。
 
 ## 快速开始
 
@@ -68,7 +68,7 @@ python skills/resume-workbench/scripts/resume.py github octocat/Hello-World
 python skills/resume-workbench/scripts/resume.py analyze-template template.docx
 ```
 
-`tailor` 提供有依据的建议，不自动修改事实或选用经历。构建时可多次使用 `--select <id>` 指定内容。GitHub 读取仅访问公开 API/README，不运行仓库代码；结果仍为待确认素材，需确认个人贡献。工具不提供通用 ATS 过筛分或录用保证。
+`tailor` 提供有依据的建议，不自动修改事实或选用经历。构建时可多次使用 `--select <id>` 指定内容。GitHub 读取仅访问公开 API/README，不运行仓库代码；结果仍为待确认素材，需确认个人贡献。
 
 ### 导入模板
 

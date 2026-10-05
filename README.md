@@ -20,7 +20,7 @@ English | [中文](README_ZH.md)
 - **Editable Word plus its PDF.** Use the default layout, ordinary DOCX paragraphs/simple tables, or reconstruct a text-layer PDF reference as Word. Report unsupported layout elements and reconstruction differences.
 - **Continue from your latest Word.** Edit a copy without requiring version history, preserve the original, and export a new PDF from the edited Word.
 
-The workflow supports different industries and career stages; it does not require a technical project or a GitHub account.
+The workflow supports different industries and career stages. Start with your narrative or existing resume, and add public GitHub evidence when relevant.
 
 ## Quick Start
 
@@ -68,7 +68,7 @@ python skills/resume-workbench/scripts/resume.py github octocat/Hello-World
 python skills/resume-workbench/scripts/resume.py analyze-template template.docx
 ```
 
-`tailor` supplies explainable recommendations; it does not modify facts or select experience automatically. Use repeated `--select <id>` arguments when building a selected version. GitHub retrieval reads public API/README material without running repository code; its findings remain pending until personal contributions are confirmed. No universal ATS score or hiring outcome is promised.
+`tailor` supplies explainable recommendations; it does not modify facts or select experience automatically. Use repeated `--select <id>` arguments when building a selected version. GitHub retrieval reads public API/README material without running repository code; its findings remain pending until personal contributions are confirmed.
 
 ### Templates
 
