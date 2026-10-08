@@ -29,7 +29,7 @@ The workflow supports different industries and career stages. Start with your na
 Python 3.10+ is required. PDF export needs Windows Microsoft Word in a working desktop session or an available LibreOffice installation. The Windows Word path has been exercised with real files; LibreOffice and other operating systems have not received the same end-to-end validation.
 
 ```powershell
-git clone https://github.com/cloudwallker/resume-workbench.git
+git clone https://github.com/cloudwallker/resume-workbench-skill.git resume-workbench
 cd resume-workbench
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
@@ -117,4 +117,4 @@ Build the ZIP locally before using the ZIP installer. The installer checks archi
 
 Project contributor: [cloudwallker](https://github.com/cloudwallker).
 
-License terms have not been specified; this repository currently contains no license file.
+Released under the [MIT License](LICENSE), © 2026 [cloudwallker](https://github.com/cloudwallker). The installed skill includes its own LICENSE copy. Third-party dependencies and user-provided resumes or reference templates retain their respective rights and licenses.

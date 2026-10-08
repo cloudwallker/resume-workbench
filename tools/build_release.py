@@ -8,7 +8,7 @@ from zipfile import ZipFile, ZIP_DEFLATED
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / 'skills' / 'resume-workbench'
 RESOURCE_FILES = [
-    'SKILL.md', 'agents/openai.yaml', 'requirements.txt',
+    'SKILL.md', 'LICENSE', 'agents/openai.yaml', 'requirements.txt',
     'scripts/resume.py', 'scripts/rw/__init__.py',
     'scripts/rw/core.py', 'scripts/rw/workspace.py', 'scripts/rw/targeting.py',
     'scripts/rw/github.py', 'scripts/rw/importing.py', 'scripts/rw/templates.py',

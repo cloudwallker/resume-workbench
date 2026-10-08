@@ -1,6 +1,7 @@
 ---
 name: resume-workbench
 description: "制作、定制或续编求职简历，默认交付可编辑 Word 和 PDF。适用于用户描述经历、导入旧简历或 PDF/Word 模板、从公开 GitHub 项目挑选素材，以及依据岗位 JD 调整不同职业阶段和行业的简历。"
+license: MIT
 ---
 
 # Resume Workbench

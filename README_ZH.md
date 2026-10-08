@@ -29,7 +29,7 @@
 需要 Python 3.10+。导出 PDF 还需要能在当前桌面会话工作的 Windows Microsoft Word，或可用的 LibreOffice。Windows Word 路径已用真实文件实测；LibreOffice 及其他操作系统尚未完成同等程度的端到端验证。
 
 ```powershell
-git clone https://github.com/cloudwallker/resume-workbench.git
+git clone https://github.com/cloudwallker/resume-workbench-skill.git resume-workbench
 cd resume-workbench
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
@@ -117,4 +117,4 @@ python tools/install_skill.py dist/resume-workbench-0.1.0.zip --skills-dir "<个
 
 项目贡献者：[cloudwallker](https://github.com/cloudwallker)。
 
-许可条款尚未指定，仓库目前没有许可证文件。
+采用 [MIT 许可证](LICENSE)，© 2026 [cloudwallker](https://github.com/cloudwallker)。安装的技能包内也保留 LICENSE 副本。第三方依赖、用户提供的简历和参考模板仍遵循各自的权利与许可。
